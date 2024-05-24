@@ -1,0 +1,302 @@
+@font-face {
+  font-family: "Intro";
+  src: url("../fonts/2CA963-6-0.woff2") format("woff2"), url("../fonts/2CA963-6-0.woff") format("woff"), url("../fonts/2CA963-6-0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Intro";
+  src: url("../fonts/2CA963-7-0.woff2") format("woff2"), url("../fonts/2CA963-7-0.woff") format("woff"), url("../fonts/2CA963-7-0.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Intro";
+  src: url("../fonts/2CA963-0-0.woff2") format("woff2"), url("../fonts/2CA963-0-0.woff") format("woff"), url("../fonts/2CA963-0-0.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Intro";
+  src: url("../fonts/2CA963-1-0.woff2") format("woff2"), url("../fonts/2CA963-1-0.woff") format("woff"), url("../fonts/2CA963-1-0.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Intro";
+  src: url("../fonts/2CA963-3-0.woff2") format("woff2"), url("../fonts/2CA963-3-0.woff") format("woff"), url("../fonts/2CA963-3-0.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Intro";
+  src: url("../fonts/2CA963-5-0.woff2") format("woff2"), url("../fonts/2CA963-5-0.woff") format("woff"), url("../fonts/2CA963-5-0.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Intro";
+  src: url("../fonts/2CA963-9-0.woff2") format("woff2"), url("../fonts/2CA963-9-0.woff") format("woff"), url("../fonts/2CA963-9-0.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Intro";
+  src: url("../fonts/2CA963-B-0.woff2") format("woff2"), url("../fonts/2CA963-B-0.woff") format("woff"), url("../fonts/2CA963-B-0.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+/* Support Older IE */
+@font-face {
+  font-family: "IntroOldIE";
+  src: url("../fonts/2CA963-6-0.eot") format("embedded-opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "IntroOldIE";
+  src: url("../fonts/2CA963-7-0.eot") format("embedded-opentype");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "IntroOldIE";
+  src: url("../fonts/2CA963-0-0.eot") format("embedded-opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "IntroOldIE";
+  src: url("../fonts/2CA963-1-0.eot") format("embedded-opentype");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "IntroOldIE";
+  src: url("../fonts/2CA963-3-0.eot") format("embedded-opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "IntroOldIE";
+  src: url("../fonts/2CA963-5-0.eot") format("embedded-opentype");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "IntroOldIE";
+  src: url("../fonts/2CA963-9-0.eot") format("embedded-opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "IntroOldIE";
+  src: url("../fonts/2CA963-B-0.eot") format("embedded-opentype");
+  font-weight: 600;
+  font-style: italic;
+}
+/* Caps Needs to be a Separate Family */
+@font-face {
+  font-family: "IntroCaps";
+  src: url("../fonts/2CA963-4-0.eot");
+  src: url("../fonts/2CA963-4-0.eot?#iefix") format("embedded-opentype"), url("../fonts/2CA963-4-0.woff") format("woff"), url("../fonts/2CA963-4-0.woff2") format("woff2"), url("../fonts/2CA963-4-0.ttf") format("truetype"), url("../fonts/2CA963-4-0.svg#wf") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "IntroCaps";
+  src: url("../fonts/2CA963-8-0.eot");
+  src: url("../fonts/2CA963-8-0.eot?#iefix") format("embedded-opentype"), url("../fonts/2CA963-8-0.woff") format("woff"), url("../fonts/2CA963-8-0.woff2") format("woff2"), url("../fonts/2CA963-8-0.ttf") format("truetype"), url("../fonts/2CA963-8-0.svg#wf") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "IntroCaps";
+  src: url("../fonts/2CA963-A-0.eot");
+  src: url("../fonts/2CA963-A-0.eot?#iefix") format("embedded-opentype"), url("../fonts/2CA963-A-0.woff") format("woff"), url("../fonts/2CA963-A-0.woff2") format("woff2"), url("../fonts/2CA963-A-0.ttf") format("truetype"), url("../fonts/2CA963-A-0.svg#wf") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "IntroCaps";
+  src: url("../fonts/2CA963-2-0.eot");
+  src: url("../fonts/2CA963-2-0.eot?#iefix") format("embedded-opentype"), url("../fonts/2CA963-2-0.woff") format("woff"), url("../fonts/2CA963-2-0.woff2") format("woff2"), url("../fonts/2CA963-2-0.ttf") format("truetype"), url("../fonts/2CA963-2-0.svg#wf") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+/* New intro variations for the new consumer nav */
+@font-face {
+  font-family: "Intro Light W05";
+  src: url("../fonts/97e479cd-7898-467c-9075-82c1d8faa40c.woff2") format("woff2"), url("../fonts/6170170b-3d7c-4b22-b99e-51fdd74bc644.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Intro Regular W05";
+  src: url("../fonts/3212d085-bd6a-4e52-a1a3-41cf21fd5e97.woff2") format("woff2"), url("../fonts/59550b43-38c4-4a50-996a-3d9595e7c875.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Intro Condensed W05";
+  src: url("../fonts/ae71928a-4836-46d9-97e5-a02cfc9f4613.woff2") format("woff2"), url("../fonts/ddf60796-5158-422c-963e-95a36e536d3c.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+.customBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  padding: 11px 20px;
+  text-align: center;
+  font-family: "Intro";
+  font-size: 14px;
+  line-height: 14px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.32px;
+  color: #2c2c2c;
+  text-transform: uppercase;
+  background-color: #FCD800;
+  border-radius: 25px;
+  text-decoration: none;
+}
+.customBtn:hover {
+  text-decoration: none;
+  color: #2c2c2c;
+}
+.customBtn--border {
+  background-color: #fff;
+  border: 2px solid #FCD800;
+}
+
+.whatsApp-banner {
+  padding-top: 40px;
+}
+.whatsApp-banner-title {
+  color: #262626;
+  font-family: "Intro";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  padding-top: 60px;
+}
+@media (max-width: 768px) {
+  .whatsApp-banner-title {
+    padding-top: 0;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 12px;
+  }
+}
+.whatsApp-banner-desc {
+  font-family: "Intro";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+@media (max-width: 768px) {
+  .whatsApp-banner-desc {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+@media (max-width: 575px) {
+  .whatsApp-banner-desc {
+    margin-bottom: 30px;
+  }
+}
+.whatsApp-works {
+  padding: 78px 0;
+  background-color: #F6F7FC;
+}
+.whatsApp-works-title {
+  font-family: "Intro";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  text-transform: capitalize;
+  color: #262626;
+  margin-bottom: 40px;
+}
+@media (max-width: 768px) {
+  .whatsApp-works-title {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 24px;
+    margin-top: 30px;
+  }
+}
+.whatsApp-works-list {
+  list-style: none;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.whatsApp-works-list li {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.whatsApp-works-list li:not(:last-child) {
+  margin-bottom: 32px;
+}
+.whatsApp-works-list li:not(:last-child)::before {
+  position: absolute;
+  content: "";
+  height: 24px;
+  width: 1px;
+  background-color: #00A6CA;
+  left: 12px;
+  top: 28px;
+}
+.whatsApp-works-list li span {
+  padding-left: 24px;
+  font-family: "Intro";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+@media (max-width: 768px) {
+  .whatsApp-works-list li span {
+    font-size: 18px;
+    line-height: 24px;
+    padding-left: 12px;
+  }
+}
+.whatsApp-works-video {
+  width: 100%;
+  aspect-ratio: 2/1;
+  border-radius: 20px;
+  position: relative;
+  box-shadow: 0px 16px 36px 0px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  cursor: pointer;
+  background-image: url("../images/video-thumbnail.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.whatsApp-works-video::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.whatsApp-works-video .action-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.videoPop video {
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */
