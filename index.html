@@ -13,13 +13,47 @@
   <body>
     <section class="whatsApp-banner">
       <div class="container">
-        <div class="row">
+        <div class="row align-items-end">
           <div class="col-md-7">
             <h1 class="whatsApp-banner-title">Your credit monitoring journey, now starts with a ‘Hi’ on WhatsApp!</h1>
-            <p class="whatsApp-banner-desc">Send a ‘Hi’ on WhatsApp to +91 8655901424 or Scan the QR code</p>
+            <p class="whatsApp-banner-desc">Send a ‘Hi’ on WhatsApp to <span>+91 8655901424</span> or Scan the QR code</p>
+            <div class="d-md-none d-block mobile-btn">
+              <a href="#" class="customBtn">Get Started</a>
+            </div>
           </div>
           <div class="col-md-5">
             <img class="img-fluid" src="./images/whatsapp-banner.svg" alt="whatsApp Banner">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="whatsApp-features">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h2 class="whatsApp-features-title">Credit Monitoring made easy with CIBIL on WhatsApp</h2>
+          </div>
+          <div class="col-md-8">
+            <div class="whatsApp-features-row">
+              <div class="item">
+                <div class="item-icon">
+                  <img class="img-fluid" src="./images/icon-anywhere.svg" alt="anywhere">
+                </div>
+                <p class="whatsApp-features-heading">Anytime, Anywhere</p>
+              </div>
+              <div class="item">
+                <div class="item-icon">
+                  <img class="img-fluid" src="./images/icon-convenient.svg" alt="convenient">
+                </div>
+                <p class="whatsApp-features-heading">Convenient</p>
+              </div>
+              <div class="item">
+                <div class="item-icon">
+                  <img class="img-fluid" src="./images/icon-safe.svg" alt="safe & secure">
+                </div>
+                <p class="whatsApp-features-heading">Safe & Secure</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -28,21 +62,16 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-6">
-            <div class="whatsApp-works-video" data-toggle="modal" data-target="#videoModal">
-              <div class="action-btn">
-                <svg xmlns="http://www.w3.org/2000/svg" width="82" height="82" viewBox="0 0 82 82" fill="none">
-                  <mask id="mask0_7607_3799" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="82" height="82">
-                    <rect width="82" height="82" fill="#D9D9D9" />
-                  </mask>
-                  <g mask="url(#mask0_7607_3799)">
-                    <path d="M32.4583 56.375L56.3749 41L32.4583 25.625V56.375ZM40.9999 75.1666C36.2735 75.1666 31.8319 74.2698 27.6749 72.476C23.518 70.6823 19.902 68.2479 16.827 65.1729C13.752 62.0979 11.3176 58.4819 9.52388 54.325C7.73013 50.168 6.83325 45.7264 6.83325 41C6.83325 36.2736 7.73013 31.8319 9.52388 27.675C11.3176 23.518 13.752 19.9021 16.827 16.8271C19.902 13.7521 23.518 11.3177 27.6749 9.52394C31.8319 7.73019 36.2735 6.83331 40.9999 6.83331C45.7263 6.83331 50.168 7.73019 54.3249 9.52394C58.4819 11.3177 62.0978 13.7521 65.1728 16.8271C68.2478 19.9021 70.6822 23.518 72.476 27.675C74.2697 31.8319 75.1666 36.2736 75.1666 41C75.1666 45.7264 74.2697 50.168 72.476 54.325C70.6822 58.4819 68.2478 62.0979 65.1728 65.1729C62.0978 68.2479 58.4819 70.6823 54.3249 72.476C50.168 74.2698 45.7263 75.1666 40.9999 75.1666ZM40.9999 68.3333C48.6305 68.3333 55.0937 65.6854 60.3895 60.3896C65.6853 55.0937 68.3333 48.6305 68.3333 41C68.3333 33.3694 65.6853 26.9062 60.3895 21.6104C55.0937 16.3146 48.6305 13.6666 40.9999 13.6666C33.3694 13.6666 26.9062 16.3146 21.6103 21.6104C16.3145 26.9062 13.6666 33.3694 13.6666 41C13.6666 48.6305 16.3145 55.0937 21.6103 60.3896C26.9062 65.6854 33.3694 68.3333 40.9999 68.3333Z" fill="white" />
-                  </g>
-                </svg>
-              </div>
+            <div class="whatsApp-works-video">
+              <video poster="./images/video-thumbnail.png" data-yt2html5="https://www.youtube.com/embed/xoD4TQFEvdw?si=pBWdXVXgJT57AFLg" controls>
+                <!-- <embed height="400" width="400" src="https://www.youtube.com/embed/xoD4TQFEvdw?si=pBWdXVXgJT57AFLg" type="video/mp4"> -->
+                </object>
+              </video>
+              <p class="caption">Play this video to see how it works</p>
             </div>
           </div>
-          <div class="col-md-6">
-            <h2 class="whatsApp-works-title">How it works?</h2>
+          <div class="col-md-5 offset-md-1">
+            <h2 class="whatsApp-works-title">FREE CIBIL Score in few easy steps!</h2>
             <ul class="whatsApp-works-list">
               <li>
                 <div class="whatsApp-works-icon">
@@ -55,7 +84,7 @@
                     </g>
                   </svg>
                 </div>
-                <span>Scan the QR code from your mobile phone.</span>
+                <p><span>Scan the QR code</span> using your mobile device.</p>
               </li>
               <li>
                 <div class="whatsApp-works-icon">
@@ -68,7 +97,7 @@
                     </g>
                   </svg>
                 </div>
-                <span>Send us ‘Hi’ on WhatsApp chat.</span>
+                <p><span>Send us ‘Hi’</span> to us on WhatsApp</p>
               </li>
               <li>
                 <div class="whatsApp-works-icon">
@@ -81,7 +110,7 @@
                     </g>
                   </svg>
                 </div>
-                <span>Verify your identity by answering some questions.</span>
+                <p><span>Confirm your identity</span> by providing few details</p>
               </li>
               <li>
                 <div class="whatsApp-works-icon">
@@ -94,7 +123,7 @@
                     </g>
                   </svg>
                 </div>
-                <span>Get your Free Credit Report.</span>
+                <p><span>Get your FREE CIBIL Score & Report</span> on your registered email.</p>
               </li>
             </ul>
           </div>
@@ -102,30 +131,11 @@
       </div>
     </section>
 
-
-    <!-- video popup -->
-    <div class="modal videoPop fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <video id="download-now-video" class="video-js" controls preload="auto" width="680" height="326" poster="" data-setup="{}">
-              <source src="../videos/download-now.mp4" type="video/mp4" />
-              <source src="../videos/download-now.webm" type="video/webm" />
-              <p class="vjs-no-js"> To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a> </p>
-            </video>
-          </div>
-
-        </div>
-      </div>
-    </div>
-
     <script src="./js/jquery.min.js"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/thelevicole/youtube-to-html5-loader@4.0.1/dist/YouTubeToHtml5.js"></script>
+    <script>new YouTubeToHtml5();</script>
+
   </body>
 
 </html>
